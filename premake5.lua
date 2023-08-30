@@ -18,6 +18,7 @@ project "spdlog"
     }
     
     filter "system:windows"
+        architecture "x86_64"
     
     filter "system:linux"
 
